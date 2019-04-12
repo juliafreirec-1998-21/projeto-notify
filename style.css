@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    grid-template-areas: 'Banner' 'conteudo' 'contato' 'redes' 'rodape';
+    grid-template-rows: 75vh 25vh  30vh 25vh 10vh;
+    grid-template-columns: 98vw 100vw 100vw 100vw 100vw;
+    margin: 0;
+    border-top: 10px solid green;
+}
+#banner{
+    grid-area: Banner;
+    background-image: url('img/banner.png');
+    background-size: cover;
+    
+}
+
+#conteudo{
+    grid-area: conteudo;
+    background-color: brown;
+}
+
+#contato{
+    grid-area: contato;
+    background-color: aqua;
+}
+
+#redes{
+    grid-area: redes;
+    background-color: yellow;
+}
+
+footer{
+    grid-area: rodape;
+    background-color: darkgreen;
+}
+ 
