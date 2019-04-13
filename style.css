@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
 body{
     display: grid;
     grid-template-areas:    'Banner Banner Banner Banner' 
@@ -9,13 +12,24 @@ body{
     grid-template-columns: 25vw 25vw 25vw 25vw;
     margin: 0;
     padding: 0;
-    border-top: 10px solid #31BD69;
+    border-top: 6px solid #31BD69;
 }
+
 #banner{
     grid-area: Banner;
     background-image: url('img/banner.png');
     background-size: cover;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#banner #maoCelular{
+    height: 86%;
+    margin-top: 89px;
+
+
 }
 
 #conteudo{
@@ -28,13 +42,60 @@ body{
     background-color: aqua;
 }
 
+footer{
+    grid-area: rodape;
+    background-color: darkgreen;
+}
+
+#linksBanner{
+    display: flex;
+    justify-content: space-between;
+    width: 8em;
+    margin: 0;
+}
+
+#linksBanner a{
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+#linksBanner a:hover{
+    background-color: #31BD69;
+}
+
+#linksBanner a img{
+    padding: 5px;
+    width: 24px;
+}
+ 
 #redes{
     grid-area: redes;
     background-color: yellow;
 }
 
-footer{
-    grid-area: rodape;
-    background-color: darkgreen;
+#textoBanner{
+    color: white;
+    width:  400px;
+    height: auto;
+    margin-left: 190px;
+    padding: 0;
 }
- 
+
+#textoBanner h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 36pt;
+    margin: 0;
+    font-weight: normal;
+}
+
+#textoBanner p{
+    font-family: 'Hind', sans-serif;
+    font-size: 16pt;
+    margin: 10px;
+}
+
+#textoBanner span{
+    color: #31BD69;
+}
