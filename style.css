@@ -1,10 +1,15 @@
 body{
     display: grid;
-    grid-template-areas: 'Banner' 'conteudo' 'contato' 'redes' 'rodape';
-    grid-template-rows: 75vh 25vh  30vh 25vh 10vh;
-    grid-template-columns: 98vw 100vw 100vw 100vw 100vw;
+    grid-template-areas:    'Banner Banner Banner Banner' 
+                            'conteudo conteudo conteudo conteudo' 
+                            'contato contato contato contato' 
+                            'redes redes redes redes' 
+                            'rodape rodape rodape rodape';
+    grid-template-rows: 82vh 25vh  30vh 25vh 10vh;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
     margin: 0;
-    border-top: 10px solid green;
+    padding: 0;
+    border-top: 10px solid #31BD69;
 }
 #banner{
     grid-area: Banner;
