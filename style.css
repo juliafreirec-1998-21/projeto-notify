@@ -8,7 +8,7 @@ body{
                             'contato contato contato contato' 
                             'redes redes redes redes' 
                             'rodape rodape rodape rodape';
-    grid-template-rows: 82vh 25vh  30vh 25vh 10vh;
+    grid-template-rows: 79vh 44vh  55vh 25vh 10vh;
     grid-template-columns: 25vw 25vw 25vw 25vw;
     margin: 0;
     padding: 0;
@@ -34,12 +34,90 @@ body{
 
 #conteudo{
     grid-area: conteudo;
-    background-color: brown;
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
 }
+#icone1{
+    width: 50px; 
+	border-radius: 67px ;
+    padding:23px;
+    background-color: #31BD69  ;
+   
+   
+}
+#texto1{
+    float:left;
+    width:50px;
+    margin-left:10px;
+    text-justify: right;
+     
+}
+
+#icone2{
+    width: 50px; 
+	border-radius: 67px ;
+    padding:23px;
+    background-color:  #31BD69  ;
+}
+
+#icone3{
+    width: 50px; 
+	border-radius: 67px ;
+    padding:23px;
+    background-color:   #31BD69 ;
+}
+
+
 
 #contato{
     grid-area: contato;
-    background-color: aqua;
+    background-color: rgb(211, 210, 210);
+
+}
+
+#video{
+    margin-top: 50px;
+    margin-right: 60px;
+    
+}
+
+
+#Email{
+  background-color:white;
+  border:solid 2px rgb(206, 200, 200);
+  border-radius:10px;
+  width:300px;
+  height:46px;
+  margin-top: 200px;
+  margin-left: 240px;
+}
+ 
+#txtEmail{
+  float:left;
+  background-color:transparent;
+  padding-left:20px; 
+  font-size: 18 px;
+  border:none;
+  height:42px;
+  width:190px;
+}
+ 
+#btnEmail{
+  border:none;
+  float:left;
+  height:46px;
+  border-radius:0 7px 7px 0;
+  width:90px;
+  font-weight:bold;
+  background:#31BD69;
+}
+ 
+#divEmail img{
+  float:left;
 }
 
 footer{
@@ -99,3 +177,4 @@ footer{
 #textoBanner span{
     color: #31BD69;
 }
+
