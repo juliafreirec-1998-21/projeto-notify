@@ -8,7 +8,7 @@ body{
                             'contato contato contato contato' 
                             'redes redes redes redes' 
                             'rodape rodape rodape rodape';
-    grid-template-rows: 83.5vh 50vh  65vh 45vh 10vh;
+    grid-template-rows: 83.5vh 50vh  65vh 60vh 10vh;
     grid-template-columns: 24.7vw 24.7vw 24.7vw 24.7vw;
     margin: 0;
     padding: 0;
@@ -164,14 +164,21 @@ footer{
     width: 24px;
 }
 
-#redesSociais img{
-    background-color: gray;
+#redesSociais a img{
+    
+}
+
+#redesSociais a{
+    background-color: #b3b3b3;
     padding: 10px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
 }
 
 #redes{
     grid-area: redes;
-    background-color: yellow;
+    background-color: white;
 }
 
 #textoBanner{
@@ -216,5 +223,5 @@ footer{
 .topicos p{
     font-size: 10pt;
     text-align: left;
-    color: rgb(158, 158, 158);
+    color: rgb(201, 200, 200);
 }
