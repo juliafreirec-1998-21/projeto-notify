@@ -50,8 +50,8 @@ body{
 }
 
 .icone{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 	border-radius: 100%;
     padding:23px;
     background-color: #31BD69;
@@ -63,7 +63,7 @@ body{
 }
 
 .icone img{
-    width: 30px;
+    width: 35px;
 }
 
 #texto1{
@@ -97,6 +97,7 @@ body{
   border-radius:10px;
   width:300px;
   height:46px;
+  margin-top: 50px;
 }
  
 #txtEmail{
