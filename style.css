@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Hind');
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     display: grid;
     grid-template-areas:    'Banner Banner Banner Banner' 
@@ -13,7 +8,7 @@ body{
                             'contato contato contato contato' 
                             'redes redes redes redes' 
                             'rodape rodape rodape rodape';
-    grid-template-rows: 83.5vh 50vh  65vh 25vh 10vh;
+    grid-template-rows: 83.5vh 50vh  65vh 45vh 10vh;
     grid-template-columns: 24.7vw 24.7vw 24.7vw 24.7vw;
     margin: 0;
     padding: 0;
@@ -168,7 +163,12 @@ footer{
     padding: 5px;
     width: 24px;
 }
- 
+
+#redesSociais img{
+    background-color: gray;
+    padding: 10px;
+}
+
 #redes{
     grid-area: redes;
     background-color: yellow;
