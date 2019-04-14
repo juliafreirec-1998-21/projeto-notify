@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Hind');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: grid;
     grid-template-areas:    'Banner Banner Banner Banner' 
@@ -8,8 +13,8 @@ body{
                             'contato contato contato contato' 
                             'redes redes redes redes' 
                             'rodape rodape rodape rodape';
-    grid-template-rows: 79vh 44vh  55vh 25vh 10vh;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 83.5vh 44vh  55vh 25vh 10vh;
+    grid-template-columns: 24.7vw 24.7vw 24.7vw 24.7vw;
     margin: 0;
     padding: 0;
     border-top: 6px solid #31BD69;
@@ -39,16 +44,28 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0 8.5%;
+    text-align: justify;
    
 }
-#icone1{
-    width: 50px; 
-	border-radius: 67px ;
+
+.icone{
+    width: 40px;
+    height: 40px;
+	border-radius: 100%;
     padding:23px;
-    background-color: #31BD69  ;
-   
+    background-color: #31BD69;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 30px;
    
 }
+
+.icone img{
+    width: 40px;
+}
+
 #texto1{
     float:left;
     width:50px;
@@ -56,21 +73,6 @@ body{
     text-justify: right;
      
 }
-
-#icone2{
-    width: 50px; 
-	border-radius: 67px ;
-    padding:23px;
-    background-color:  #31BD69  ;
-}
-
-#icone3{
-    width: 50px; 
-	border-radius: 67px ;
-    padding:23px;
-    background-color:   #31BD69 ;
-}
-
 
 
 #contato{
@@ -100,7 +102,7 @@ body{
   float:left;
   background-color:transparent;
   padding-left:20px; 
-  font-size: 18 px;
+  font-size: 18px;
   border:none;
   height:42px;
   width:190px;
@@ -178,3 +180,20 @@ footer{
     color: #31BD69;
 }
 
+.topicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    text-align: justify;
+    font-family: 'Hind', sans-serif;
+}
+
+.topicos h3{
+    font-weight: bolder;
+}
+
+.topicos p{
+    font-size: 11pt;
+}
