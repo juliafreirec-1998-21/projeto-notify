@@ -314,7 +314,7 @@ iframe{
                                 'contato' 
                                 'redes' 
                                 'rodape';
-        grid-template-rows: 83.5vh auto auto auto 23vh;
+        grid-template-rows: 83.5vh auto auto auto auto;
         grid-template-columns: 768px;
         border-top: 6px solid #31BD69;
         font-family: 'Hind', sans-serif;
@@ -545,6 +545,19 @@ iframe{
     #redesSociais a img{
         width: 90px;
         height: 90px;
+    }
+    
+
+    #linkRodape{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 20px;
+    }
+
+    #linkRodape a{
+        font-size: 20pt;
     }
 
 }
