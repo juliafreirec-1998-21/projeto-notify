@@ -30,7 +30,6 @@ body{
     height: 86%;
     margin-top: 89px;
 
-
 }
 
 #conteudo{
@@ -54,7 +53,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;  
-    margin-bottom: 30px;
+    margin-bottom: 15px;
    
 }
 
@@ -293,6 +292,7 @@ footer{
 
 .topicos h3{
     font-weight: bolder;
+    margin: 10px 0;
 }
 
 .topicos p{
@@ -302,5 +302,143 @@ footer{
 }
 
 @media (max-width:768px){
+    body{
+        display: grid;
+        grid-template-areas:    'Banner' 
+                                'conteudo' 
+                                'contato' 
+                                'redes' 
+                                'rodape';
+        grid-template-rows: 83.5vh auto auto auto 23vh;
+        grid-template-columns: 768px;
+        border-top: 6px solid #31BD69;
+        font-family: 'Hind', sans-serif;
+        max-width: 768px;
+    }
     
+    #banner{
+        grid-area: Banner;
+        background-image: url('img/banner.png');
+        display: flex;
+        justify-content: center;
+    }
+
+    #maoCelular{
+        display: none;
+    }
+
+    #textoBanner{
+        margin-left: 0;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #textoBanner p{
+        text-shadow: 2px 1px #5c5c5c;
+    }
+
+    #linksBanner a{
+        background-color: rgba(0, 0, 0, 0.521);
+        padding: 5px;
+        width: 80px;
+        height: 35px;
+        margin-right: 10px;
+        border-radius: 100%;
+    }
+    #conteudo{
+        padding: 50px 10px;
+        flex-direction: column;
+    }
+
+    .topicos{
+        width: 60%;
+    }
+
+    .topicos p{
+        font-size: 15pt;
+    }
+
+    #contato{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    #textContato{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    iframe{
+        width: 100%;
+    }
+
+    #descEmail{
+        margin: 0;
+    }
+
+    #redes{
+        padding: 30px 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #textoDesc p{
+        font-size: 13pt;
+    }
+
+    #textoDesc h5{
+        font-size: 15pt ;
+    }
+
+    #pessoas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    #pessoas img{
+        width: 60px;
+        height: 60px;
+        margin-right: 18px;
+    }
+
+    #tituloRedes h4{
+        font-size: 15pt;
+    }
+
+    #tituloRedes p{
+        font-size: 13.5pt;
+    }
+
+    #redesSociais{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 55%;
+        margin-left: 22%;
+    }
+
+    #redesSociais a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        padding: 0;
+    }
+
+    #redesSociais a img{
+        width: 30px;
+        height: 30px;
+    }
 }
