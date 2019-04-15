@@ -141,6 +141,11 @@ footer{
     background-color: rgb(128, 128, 128);
 }
 
+iframe{
+    width:455px;
+    height:267px;
+}
+
 #linksBanner{
     display: flex;
     justify-content: space-between;
@@ -441,4 +446,105 @@ footer{
         width: 30px;
         height: 30px;
     }
+}
+
+@media (max-width: 425px) {
+    body{
+        border: none;
+    }
+
+    #textoBanner{
+        flex-wrap: wrap;
+    }
+
+    #textoBanner h3, span{
+        font-size: 120px;
+    }
+
+    #textoBanner p{
+        display: none;
+    }
+
+    #linksBanner {
+        display: none;
+    }
+
+    .topicos .icone{
+        width: 110px;
+        height: 110px;
+    }
+
+    .icone img{
+        width: 90px;
+    }
+
+    .topicos{
+        margin-bottom: 25px;
+    }
+
+    .topicos h3{
+        font-size: 30pt;
+    }
+
+    .topicos p{
+        font-size: 25pt;
+    }
+
+    #textContato{
+        margin: 0;
+        padding: 0;
+        width: 700px;
+        height: 530px;
+    }
+
+    iframe{
+        width: 600px;
+        height: 457px;
+    }
+
+    #descEmail h4{
+        font-size: 30pt;
+    }
+
+    #descEmail p{
+        font-size: 25pt;
+    }
+
+    #textoDesc p{
+        font-size: 18pt;
+    }
+
+    #textoDesc h5{
+        font-size: 22pt;
+    }
+
+    #pessoas img{
+        width: 100px;
+        height: 100px;
+    }
+
+    #tituloRedes h4{
+        font-size: 30pt;
+    }
+
+    #tituloRedes p{
+        font-size: 24pt;
+    }
+
+    #redesSociais{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #redesSociais a{
+        margin: 10px;
+        width: 180px;
+        height: 180px;
+    }
+
+    #redesSociais a img{
+        width: 90px;
+        height: 90px;
+    }
+
 }
