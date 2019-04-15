@@ -8,11 +8,12 @@ body{
                             'contato contato contato contato' 
                             'redes redes redes redes' 
                             'rodape rodape rodape rodape';
-    grid-template-rows: 83.5vh 50vh  65vh 60vh 10vh;
+    grid-template-rows: 83.5vh 50vh  65vh 65vh 23vh;
     grid-template-columns: 24.7vw 24.7vw 24.7vw 24.7vw;
     margin: 0;
     padding: 0;
     border-top: 6px solid #31BD69;
+    font-family: 'Hind', sans-serif;
 }
 
 #banner{
@@ -47,7 +48,7 @@ body{
 .icone{
     width: 30px;
     height: 30px;
-	border-radius: 100%;
+    border-radius: 100%;
     padding:23px;
     background-color: #31BD69;
     display: flex;
@@ -127,7 +128,7 @@ body{
 #descEmail p{
     color: rgb(128, 128, 128);
     font-size: 11pt;
-    text-align: justify
+    text-align: justify;
 }
 
 #descEmail h4{
@@ -138,7 +139,7 @@ body{
 
 footer{
     grid-area: rodape;
-    background-color: darkgreen;
+    background-color: rgb(128, 128, 128);
 }
 
 #linksBanner{
@@ -164,16 +165,90 @@ footer{
     width: 24px;
 }
 
+#linkRodape{
+    background-color: #E3E3E3;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linkRodape a{
+    font-size: 11pt;
+    text-decoration: none;
+    color: #8b8b8b;
+    margin-right: 20px;
+
+}
+
+#linkRodape a:hover{
+    color: #5c5c5c;
+}
+
 #redesSociais a img{
-    
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+
 }
 
 #redesSociais a{
     background-color: #b3b3b3;
     padding: 10px;
     border-radius: 100%;
-    width: 20px;
-    height: 20px;
+    width: 12em;
+    height: 12em;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+#redesSociais a:hover{
+    background-color: #31BD69;
+}
+
+#redesSociais {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#pessoas{
+    text-align: center;
+}
+
+#redes p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 60px; 
+    margin-top: 35px;
+}
+
+#tituloRedes{
+    text-align: center;
+    color: black;
+}
+
+#tituloR{
+    color: rgb(128, 128, 128);
+}
+
+
+#textoDesc{ 
+    color: rgb(128, 128, 128);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 60px; 
+    margin-top: 35px;
+}
+
+#textoDesc p{
+    font-style: italic;
+    font-size: 10pt;
+}
+
+#RedesNome {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 #redes{
@@ -224,4 +299,8 @@ footer{
     font-size: 10pt;
     text-align: left;
     color: rgb(201, 200, 200);
+}
+
+@media (max-width:768px){
+    
 }
